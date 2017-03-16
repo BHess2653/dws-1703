@@ -1,0 +1,100 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color:#FDFDFD;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+  border: none;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.jumbotron {
+  background-color:transparent;
+}
+
+.intro-header {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background:url("http://i.imgur.com/iZYHbev.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  display:table;
+}
+
+.centerize {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-me {
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.about-me hr {
+    width: 40px;
+    margin-bottom: 45px;
+    border-color: black;
+}
+
+hr {
+  border-color: black;
+}
+
+.portfolio {
+  padding: 50px;
+}
+
+.portfolio hr {
+    width: 40px;
+    margin-bottom: 45px;
+    border-color: black;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact {
+  height:100vh;
+  background-color:#222;
+  padding: 13%;
+  color: white;
+  text-align:center;
+}
+
+.contact hr {
+    width: 40px;
+    margin-bottom: 45px;
+    border-color: black;
+}
+
+.contact a {
+  margin:1%;
+
+
+}
+
+.contact a:hover {
+  color: #64b5f6;
+}
+
+
+#btm-img {
+  border-radius: 50%;
+  height: 300px;
+  padding-top: -20px;
+  margin-top: -20px;
+}
