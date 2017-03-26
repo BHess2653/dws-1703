@@ -154,3 +154,38 @@ ul {
     max-width: 35px;
     min-width: 25px;
 }
+
+ #portfolio-img {
+   max-width: 100%;
+ }
+
+ .carousel-inner {
+   max-width: 100%;
+ }
+
+ @media (min-width: 1200px) {
+   #portfolio-img {
+     max-width: 70%;
+   }
+   .item {
+     padding-left: 33%;
+   }
+ }
+
+@media (min-width: 992px) {
+  #portfolio-img {
+    max-width: 60%;
+  }
+  .item {
+    padding-left: 33%;
+  }
+}
+
+@media (min-width: 768px) {
+  #portfolio-img {
+    max-width: 50%;
+  }
+  .item {
+    padding-left: 33%;
+  }
+}
